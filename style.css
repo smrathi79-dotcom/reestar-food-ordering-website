@@ -1,0 +1,67 @@
+
+nav{
+    background-color: black;
+    color:white;
+    padding:10px;
+    text-align: center;
+}
+li,ul{
+    display:inline;
+    
+}
+li{
+    color:grey;
+}
+li:hover{
+    color:white;
+    cursor:pointer;
+}
+.box{
+    border: black;
+    border-width:2px;
+    border-style: solid;
+    display:inline-block;
+    width:220px; 
+    margin-top: 20px;
+    text-align: center;
+}
+.Receipe{
+    background-color:white;
+    text-align:center;
+   
+}
+.contact{
+    margin-top: 10px;;
+    background-color: black;
+    color:white;
+    text-align:center;
+}
+table{
+     margin: 0 auto 20px auto;
+    border-collapse: collapse;
+}
+td {
+    padding: 5px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+td input {
+    padding: 5px;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.send-btn {
+    width: 30%;
+    background-color: skyblue;
+    color: black;
+    border: none;
+    padding: 8px 0;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
